@@ -7,7 +7,7 @@
  */
 function greet(name, callback) {
   console.log("Hello " + name);
-  callback();
+//   callback();
 }
 
 function sayBye() {
@@ -16,7 +16,7 @@ function sayBye() {
 
 
 // 2nd example
-greet("Mahbuba", sayBye);
+greet("Mahbuba", sayBye());
 
 function calculate(a, b, callback) {
   callback(a, b);
